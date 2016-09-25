@@ -1,0 +1,64 @@
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-top: 10px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p{
+  font-size: 25px;
+}
+.container{
+  padding-top: 50px;
+}
+
+#form label{
+  padding-bottom: 5px;
+}
+
+
+ul li{
+  display: block;
+  padding: 10px 0;
+  cursor: pointer;
+  text-indent: 10px;
+  border-radius: 8px;
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+  transition: .15s;
+}
+
+
+#todolist{
+  padding-top: 20px;
+}
+#todolist li{
+
+   background: url("../images/add.png") 470px 5px no-repeat ;
+}
+#todolist li:hover{
+  background-color: #ffb89e;
+  list-style: none;
+}
+
+#donelist li{
+  background: url("../images/delete.png") 470px 5px no-repeat ;
+}
+
+#donelist li:hover{
+  background-color:#666;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+}
