@@ -1,3 +1,3 @@
 # myTodoList
-a Todolist With node.js express mongoose mongodb jade template 
-curd
+a Todolist With node.js express localStorage jade template 
+
